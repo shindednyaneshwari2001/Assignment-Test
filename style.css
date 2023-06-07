@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-right li {
+    margin-left: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: blueviolet;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 20px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card img {
+    width: 10px;
+    border-radius: 5px;
+}
+
+.c
